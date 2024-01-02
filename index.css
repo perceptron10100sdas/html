@@ -1,0 +1,55 @@
+.body{
+    background-image: url('/high.webp');
+    z-index: -1;
+    
+    text-align: end;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.heading{
+    
+   
+   
+    color: rgba(194, 0, 0, 0.966);
+    animation:forwards;
+    animation-duration: 100s;
+    font-style: oblique;
+    
+}
+.info{
+    
+   
+    text-shadow: 0ch;
+border-color: black;
+color: rgb(255, 255, 0);
+}
+.contents{
+    background-image: url('/wall.jpg');
+    color: aqua;
+    
+    
+   text-align: center;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(9, 82, 238);
+
+}
+.drop{
+    display: none;
+    color: red;
+    background-color: yellow;
+    
+    width: 200px;
+    padding: 10px;
+    
+    
+   
+   
+
+}
+.drop :hover{
+    background-image: linear-gradient(to right,red,yellow);
+}
+.contents:hover .drop{
+    display: block;
+}
